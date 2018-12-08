@@ -1,0 +1,39 @@
+  html, body {
+    font-family: 'Roboto Slab', serif;
+    color: #7d97ad;
+  }
+
+  ul {
+    font-size: 30px;
+  }
+
+  #feat {
+    min-height: auto;
+    width: 100%;
+  }
+
+  #gray-box {
+    background-color: #7d97ad;
+    min-height: 5px;
+    width: 100%;
+    margin: 5px 0px 5px 0px;
+  }
+
+  .footer-gray {
+    background-color: #7d97ad;
+    padding: 10px 0px 10px 0px;
+  }
+
+  .logo {
+    height: 60px;
+    width: 60px;
+  }
+
+
+@media screen and (min-width: 800px) and (max-width: 2500px) {
+.container-fluid {
+width: 800px;
+margin-left: auto;
+margin-right: auto;
+}
+}
